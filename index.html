@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/gota-de-sangue.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Sangue Salva</title>
+  </head>
+  <body class="bg-[#121111]">
+    <nav class="fixed top-0 w-full flex justify-between bg-[#121111] h-14">
+      <div class="w-full flex  justify-between">
+
+        <div id="menu" class="md:hidden">
+          <span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+
+        
+  
+        <h2 class="text-white text-xl  mt-3! ml-5! mr-5!"><span class="text-red-700">Doe,</span> salve vidas.</h2>
+      </div>
+      <!-- Nav para telas maiores -->
+      <div class="text-white hidden md:flex mt-3! mr-5!">
+          <ul class="flex gap-7 text-xl justify-end">
+            <li><a class="menu-option" href="#">Home</a></li>
+            <li><a class="menu-option whitespace-nowrap" href="#porque">Por que?</a></li>
+            <li><a class="menu-option" href="#quem">Quem?</a></li>
+            <li><a class="menu-option" href="#quiz">Quiz</a></li>
+            <li><a class="menu-option" href="#contator">Contator</a></li>
+            <li><a class="menu-option" href="#encerramento">Encerramento</a></li>
+          </ul>
+      </div>
+
+      <!-- Nav para telas menores -->
+      <div class="h-screen md:hidden! md:bg-transparent fixed bg-[#121111] top-12 w-screen flex justify-center" id="options">
+        <ul class="text-center md:hidden h-4/5 text-white text-5xl flex flex-col justify-between">
+          <li><a class="menu-option" href="#">Home</a></li>
+          <li><a class="menu-option" href="#porque">Por que?</a></li>
+          <li><a class="menu-option" href="#quem">Quem?</a></li>
+          <li><a class="menu-option" href="#quiz">Quiz</a></li>
+          <li><a class="menu-option" href="#contator">Contator</a></li>
+          <li><a class="menu-option" href="#encerramento">Encerramento</a></li>
+        </ul>
+      </div>
+
+    </nav>
+    
+    <section id="home" class="min-h-screen flex flex-col gap-20 justify-center">
+      <h1 class="mt-32! uppercase text-7xl md:text-9xl text-black font-bold text-center home-title">Sangue salva</h1>
+      <p class="text-white text-center text-3xl md:text-5xl p-4! mt-10!">Uma única doação pode <br>salvar até <span class="text-red-700">4 vidas!</span></p>
+      <div class="w-full flex justify-center mt-10!">
+        <a class="text-white text-xl mx-auto bg-red-700 p-3! px-7! rounded-full mt-3!" href="#porque">Saiba mais</a>
+      </div>
+    </section>
+
+    <section id="porque" class="min-h-screen">
+      <h1 class="text-white text-5xl md:text-7xl text-center pt-20!">Por que <span class="text-red-700">doar?</span></h1>
+      <p class="text-white text-center mt-5! italic">Motivos não faltam!</p>
+
+      <div class="md:grid md:grid-cols-2">
+        <div>
+          <h4 class="text-red-700 mt-7! ml-5! text-4xl">Salvar vidas</h4>
+          <p class="text-white ml-5! mt-2!">Uma única doação pode salvar até 4 vidas!</p>
+        </div>
+        <div>
+          <h4 class="text-red-700 mt-7! ml-5! text-4xl">Fazer a diferença</h4>
+          <p class="text-white ml-5! mt-2!">Cada bolsa doada benificia a comunidade local.</p>
+        </div>
+        <div>
+          <h4 class="text-red-700 mt-7! ml-5! text-4xl">Check-up grátis</h4>
+          <p class="text-white ml-5! mt-2!">Quem doa sangue, recebe um exame gratuito de doenças transmissíveis.</p>
+        </div>
+        <div>
+          <h4 class="text-red-700 mt-7! ml-5! text-4xl">Day off</h4>
+          <p class="text-white ml-5! mt-2!">O Governo assegura pela CLT o direito de <br> folga aos doadores de sangue.</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="quem" class="min-h-screen">
+      <h1 class="text-white text-5xl md:text-7xl text-center pt-20!">Quem pode <span class="text-red-700">doar?</span></h1>
+      <p class="text-white text-center mt-5! italic">Fique atendo a lista de critérios.</p>
+      <div class="md:grid grid-cols-2 md:mt-10!">
+      <p class="text-white mt-5! ml-5!">
+        <span class="text-red-700">Idade:</span> Deve se ter entre 16 e 69 anos
+      </p>
+      <p class="text-white mt-5! ml-5!">
+        <span class="text-red-700">Peso:</span> O doador tem que ter mais de 50Kg
+      </p>
+      <p class="text-white mt-5! ml-5!">
+        <span class="text-red-700">Saúde:</span> É necessario estar em boas 
+condições de saúde
+      </p>       
+      <p class="text-white mt-5! ml-5!">
+        <span class="text-red-700">Jejum:</span> Não deve se fazer jejum para a coleta de sangue, é recomendável ter uma refeição leve antes.
+      </p> 
+      <p class="text-white mt-5! ml-5!">
+        <span class="text-red-700">Álcool:</span> Também precisa se atentar a ficar pelo menos 12 horas sem consumir
+bebidas alcoolicas para a doação.
+      </p> 
+      <p class="text-white mt-5! ml-5!">
+        <span class="text-red-700">Documentação:</span> É necessario apresentar
+documento com foto. Menores de idade 
+precisam de autorização dos responsáveis.
+      </p>
+      </div>
+    </section>
+
+    <section id="quiz" class="min-h-screen">
+      <h1 class="text-white text-5xl md:text-7xl text-center pt-20!">Quiz!</h1>
+      <p class="text-white text-center mt-5!">Teste seu conhecimento sobre <br>
+      <span class="text-red-700">doação de sangue</span></p>
+      
+      <div class="quiz flex justify-center flex-col-reverse items-center">
+       <div class="score mt-5! flex gap-3">
+       </div>
+      </div>
+    </section>
+
+    <section id="contator" class="min-h-screen flex flex-col justify-center text-white text-center">
+      <br><br>
+      <h1 class="text-6xl mt-10!">Este site já conscientizou</h1>
+      <br><br>
+      <h1 id="counter" class="text-9xl mt-10! text-red-700 leading-14">399
+        <span class="text-6xl text-white md:hidden">pessoas.</span></h1>
+        <p class="text-6xl pl-5! mt-2! invisible md:visible">pessoas.</p>
+      <br><br>
+      <h1 class="text-6xl">Com você vamos mais longe!</h1>
+    </section>
+
+    <section id="encerramento" class="min-h-screen flex flex-col justify-center items-center text-white p-5!">
+      <h1 class="text-5xl text-center mb-10! mt-10! md:text-7xl">Chegamos ao fim.</h1>
+      <p class="text-left p-8 md:text-center">Este site é fruto de um projeto de extensão com o objetivo de conscientizar a população sobre a importância da doação de sangue. Atualmente, menos 2% da população brasileira é doadora. Espero que este trabalho acadêmico contribua para aumentar esse número. <br> Seja consciente, <span class="text-red-700">doe vida!</span> </p>
+      <div class="w-16 mt-7! z-0 mb-5!"> 
+        <img src="assets/map.png" class="invert">
+      </div>
+      <a class="text-white text-xl mx-auto bg-red-700 p-3! px-7! rounded-full mt-3!" href="https://www.google.com/maps/search/hemocentro+perto+de+mim" target="_blank">
+        Doe vida perto de você!
+      </a>
+    </section>
+    <script src="assets/menu.js"></script>
+    <script src="assets/quiz.js"></script>
+    <script src="assets/counter.js"></script>
+  </body>
+</html>
